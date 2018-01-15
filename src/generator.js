@@ -225,7 +225,7 @@ export default function(initialOptions) {
                 return glyphData.metadata
               }),
             },
-            options,
+            JSON.parse(JSON.stringify(options)),
             {
               fontName: options.fontName,
               fontPath: options.cssFontPath,
