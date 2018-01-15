@@ -10,7 +10,8 @@
     },
     "scripts": {
       "build": "babel --ignore __tests__ -s inline -d dist src",
-      "prepublish": "npm test && npm run build",
+      "prepublish": "yarn run test && yarn run build",
+      "install": "yarn run build",
       "test": "jest"
     },
     "keywords": [
