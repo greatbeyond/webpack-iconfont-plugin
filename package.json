@@ -11,7 +11,6 @@
     "scripts": {
       "build": "babel --ignore __tests__ -s inline -d dist src",
       "prepublish": "yarn run test && yarn run build",
-      "install": "yarn run build",
       "test": "jest"
     },
     "keywords": [
